@@ -7,7 +7,7 @@ int main() {
     printf("Enter a positive integer: ");
     scanf("%d", &num);
 
-    // Handle special cases: numbers less than or equal to 1 are not prime
+    
     if (num <= 1) {
         isPrime = 0; 
     } else {
